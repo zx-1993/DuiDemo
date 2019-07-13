@@ -1,0 +1,69 @@
+﻿  StdAfx.cpp
+d:\projectdemo\duidemo\uilib\core\uimanager.h(60): warning C4091: “typedef ”: 没有声明变量时忽略“UiLib::EVENTTYPE_UI”的左侧
+  UIActiveX.cpp
+  UIAnimation.cpp
+  UIButton.cpp
+d:\projectdemo\duidemo\uilib\control\uibutton.cpp(104): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UIChartView.cpp
+  UICheckBox.cpp
+  UICombo.cpp
+  UIComboBox.cpp
+  UIEdit.cpp
+d:\projectdemo\duidemo\uilib\control\uiedit.cpp(238): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+d:\projectdemo\duidemo\uilib\control\uiedit.cpp(526): warning C4477: “sprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“ATL::CW2AEX<128>”
+d:\projectdemo\duidemo\uilib\control\uiedit.cpp(530): warning C4477: “sprintf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“ATL::CW2AEX<128>”
+  UIFadeButton.cpp
+  UIFlash.cpp
+  UIGifAnim.cpp
+  UILabel.cpp
+  UIList.cpp
+d:\projectdemo\duidemo\uilib\control\uilist.cpp(1716): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+d:\projectdemo\duidemo\uilib\control\uilist.cpp(2263): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UIOption.cpp
+  UIProgress.cpp
+  UIRichEdit.cpp
+  UIScrollBar.cpp
+  UISlider.cpp
+d:\projectdemo\duidemo\uilib\control\uislider.cpp(243): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UIText.cpp
+d:\projectdemo\duidemo\uilib\control\uitext.cpp(53): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UITreeView.cpp
+  正在生成代码...
+  正在编译...
+  UIWebBrowser.cpp
+  UIBase.cpp
+  UIContainer.cpp
+  UIControl.cpp
+d:\projectdemo\duidemo\uilib\core\uicontrol.cpp(806): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UIDlgBuilder.cpp
+  UIDxAnimation.cpp
+  UIManager.cpp
+  UIMarkup.cpp
+  UIRender.cpp
+d:\projectdemo\duidemo\uilib\core\uirender.cpp(1128): warning C4838: 从“int”转换到“COLOR16”需要收缩转换
+  UITimer.cpp
+  UIChildLayout.cpp
+  UIHorizontalLayout.cpp
+d:\projectdemo\duidemo\uilib\layout\uihorizontallayout.cpp(268): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UITabLayout.cpp
+  UITileLayout.cpp
+  UIVerticalLayout.cpp
+d:\projectdemo\duidemo\uilib\layout\uiverticallayout.cpp(252): warning C4302: “类型转换”: 从“LPWSTR”到“WORD”截断
+  UIlib.cpp
+  DuiAutoComplete.cpp
+d:\projectdemo\duidemo\uilib\utils\duiautocomplete.cpp(291): warning C4477: “fwprintf”: 格式字符串“%s”需要类型“wchar_t *”的参数，但可变参数 1 拥有了类型“UiLib::CDuiString *”
+  DuiTrayIcon.cpp
+  IWindowBase.cpp
+  UIDelegate.cpp
+  正在生成代码...
+  正在编译...
+  Utils.cpp
+  WinImplBase.cpp
+  正在生成代码...
+  stb_image.c
+  XUnzip.cpp
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1357,5): warning MSB8012: TargetPath(D:\ProjectDemo\DuiDemo\\Common\Static_Debug_2008\UiLib.lib) does not match the Library's OutputFile property value (D:\ProjectDemo\DuiDemo\Common\Static_Debug_2008\UiLib_d.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1359,5): warning MSB8012: TargetName(UiLib) does not match the Library's OutputFile property value (UiLib_d). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  UiLib.vcxproj -> D:\ProjectDemo\DuiDemo\\Common\Static_Debug_2008\UiLib.lib
+  复制了 0 个文件
+  复制了 0 个文件

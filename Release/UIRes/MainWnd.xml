@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="1280,760" mininfo="1024,600"  sizebox="3,3,3,3" caption="0,0,0,60" >
+	<Font id="0" name="微软雅黑" size="13" bold="false" italic="false" />
+	<Font id="1" name="微软雅黑" size="20" bold="false" italic="false" /> <!-- 今日在线时长字体 -->
+	<Font id="2" name="微软雅黑" size="16" bold="false" italic="false" />
+	<Font id="3" name="微软雅黑" size="12" bold="false" italic="false" />  <!-- 聊天输入框字体 -->
+	<Font id="4" name="微软雅黑" size="14" bold="false" italic="false" />  <!-- 聊天输入框字体 -->
+	<!-- 主窗口布局开始 -->
+	<Default name="VScrollBar" value="width=&quot;8&quot; button1normalimage=&quot;file='XXX.png'&quot; button1hotimage=&quot;file='XXX.png'&quot; button1pushedimage=&quot;file='XXX.png' &quot; button1disabledimage=&quot;file='XXX.png'&quot; button2normalimage=&quot;file='XXX.png'&quot; button2hotimage=&quot;file='XXX.png'&quot; button2pushedimage=&quot;file='XXX.png'&quot; button2disabledimage=&quot;file='XXX.png'&quot; thumbnormalimage=&quot;file='ScrollThumbNor.png' &quot; thumbhotimage=&quot;file='ScrollThumbHot.png' &quot; thumbpushedimage=&quot;file='ScrollThumbHot.png' &quot; thumbdisabledimage=&quot;file='ScrollThumbNor.png' &quot; bkcolor=&quot;#FFDDEEFF&quot;"/>    
+    <VerticalLayout name="VertLayFull" width="1280" height="760" bkcolor="#FFFFFFFF" inset="0,0,0,0" ><!-- bordersize="0,0,0,0" bordercolor="#FFEBEBEB" -->
+		<!-- 主窗口标题栏布局 -->
+        <HorizontalLayout name="HorLayTitleBk" height="60" bordersize="0" bkcolor="#FFAABBCC" inset="0,0,0,0">
+			<!-- 标题栏左侧布局 -->
+			<HorizontalLayout name="HorTitlelift" height="60" bkimage="main_TitleliftBk.png" >		
+                          </HorizontalLayout>
+			<!-- 标题栏右侧布局 -->
+			<HorizontalLayout name="HorTitlelift" height="60" width="420" bordersize="0" inset="0,0,0,0" bkimage="main_TitleRightBk.png">
+				<HorizontalLayout bordersize="0" inset="0,10,0,0" >
+				<Control  /> 
+				<Button name="btnMin" tooltip="最小化" width="16" height="16" bkimage="main_min_nor.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="main_min_nor.png" hotimage="main_min_hot.png" />
+				<Control  width="10"/>
+				<Button name="btnMax" tooltip="最大化" width="16" height="16" bkimage="main_max_nor.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" />
+				<Control  width="10"/>
+				<Button name="btnClose" tooltip="关闭" width="16" height="16" bkimage="main_close_nor.png" textcolor="#FF000000" disabledtextcolor="#FFA7A6AA" align="center" normalimage="main_close_nor.png" hotimage="main_close_hot.png" />
+				<Control  width="10"/>
+				</HorizontalLayout>
+			</HorizontalLayout>
+        </HorizontalLayout>
+        <TabLayout name="VertLayUnderTitle" selectedid="-1" inset="0,0,0,1" bordersize="0,0,0,2" bordercolor="#FFEBEBEB" >	
+			
+        </TabLayout>
+    </VerticalLayout>
+	<!-- 主窗口布局结束 -->
+</Window>

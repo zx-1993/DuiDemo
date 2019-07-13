@@ -1,0 +1,2 @@
+﻿  MainWnd.cpp
+MainWnd.cpp(225): error C2065: “lParam”: 未声明的标识符
